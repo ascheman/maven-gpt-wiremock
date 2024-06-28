@@ -1,0 +1,16 @@
+{
+  "id" : "84c38e0f-36f9-369b-9474-a34ad1b68624",
+  "request" : {
+    "url" : "/start",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 204,
+    "bodyFileName" : "body-start-UBHSR.txt",
+    "headers" : {
+      "Date" : "Fri, 28 Jun 2024 06:33:23 GMT",
+      "Keep-Alive" : "timeout=60"
+    }
+  },
+  "uuid" : "84c38e0f-36f9-369b-9474-a34ad1b68624"
+}

@@ -1,0 +1,17 @@
+{
+  "id" : "1ed74d41-8df3-3f65-bee4-79533d163805",
+  "request" : {
+    "url" : "/ask?message=List+top+10+terms+in+the+context+of+Maven",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-ask-0aJ5j.json",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "Date" : "Fri, 28 Jun 2024 06:39:00 GMT",
+      "Keep-Alive" : "timeout=60"
+    }
+  },
+  "uuid" : "1ed74d41-8df3-3f65-bee4-79533d163805"
+}

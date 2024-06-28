@@ -1,0 +1,17 @@
+{
+  "id" : "df28a8ba-9043-3de0-8c58-80c7fd9c3512",
+  "request" : {
+    "url" : "/ask?message=Which+persons+have+worked+on+build+pom+documentation",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-ask-4ys6H.json",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "Date" : "Fri, 28 Jun 2024 06:38:38 GMT",
+      "Keep-Alive" : "timeout=60"
+    }
+  },
+  "uuid" : "df28a8ba-9043-3de0-8c58-80c7fd9c3512"
+}

@@ -1,0 +1,17 @@
+{
+  "id" : "e17888b5-49df-37a5-8886-61a8efbeb8d1",
+  "request" : {
+    "url" : "/ask?message=List+top+10+acronyms+in+the+context+of+Maven+%28and+their+meaning%29",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-ask-x0y0S.json",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "Date" : "Fri, 28 Jun 2024 06:39:05 GMT",
+      "Keep-Alive" : "timeout=60"
+    }
+  },
+  "uuid" : "e17888b5-49df-37a5-8886-61a8efbeb8d1"
+}

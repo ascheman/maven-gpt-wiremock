@@ -1,0 +1,65 @@
+= RunWiremock JBang Script
+:icons: font
+:toc: left
+
+This project contains a JBang script to run WireMock.
+
+== Prerequisites
+
+Before you can run the JBang script, you need to install JBang. The recommended way to install JBang is via https://sdkman.io[SDKMAN!].
+
+To install SDKMAN!, open a terminal window and enter the following command:
+
+[source,bash]
+----
+curl -s "https://get.sdkman.io" | bash
+----
+
+Then, open a new terminal window or run the following command to ensure that SDKMAN! is properly installed:
+
+[source,bash]
+----
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+----
+
+Now, you can install JBang via SDKMAN! by running the following command:
+
+[source,bash]
+----
+sdk install jbang
+----
+
+== Usage
+
+To run the `RunWiremock` JBang script, navigate to the directory where the script is located and run the following command:
+
+[source,bash]
+----
+jbang RunWiremock.java
+----
+
+This will start the WireMock server on port 8088.
+
+You can run requests against the WireMock server using `curl`. Here is an example of a smoke test:
+
+[source,bash]
+----
+curl http://localhost:8088/__admin/mappings
+----
+
+This command will return the mappings that WireMock has recorded.
+
+== Generating Curl Commands
+
+To generate the curl commands from the WireMock recordings, you can use the `GenerateCurlCommands` JBang script. This script reads the recorded mappings from WireMock and generates the corresponding curl commands.
+
+To run the `GenerateCurlCommands` JBang script, navigate to the directory where the script is located and run the following command:
+
+[source,bash]
+----
+jbang GenerateCurlCommands.java
+----
+
+This will create a file named `curl-commands.adoc` in the same directory. This file contains the curl commands derived from the WireMock recordings. Each curl command is enclosed in a source block for proper formatting in AsciiDoc.
+
+You can view the generated curl commands by opening the link:curl-commands.adoc[] file in a text editor or AsciiDoc viewer.

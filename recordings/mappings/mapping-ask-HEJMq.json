@@ -1,0 +1,18 @@
+{
+  "id" : "5f3e207c-ddc6-375e-af16-b66ca31cd7c4",
+  "request" : {
+    "url" : "/ask?message=What+is+the+difference+between+build+and+consumer+POM",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-ask-HEJMq.json",
+    "headers" : {
+      "Set-Cookie" : "JSESSIONID=756692191C9FDBD74C6C1411B92DE5D7; Path=/; HttpOnly",
+      "Content-Type" : "application/json",
+      "Date" : "Fri, 28 Jun 2024 06:33:29 GMT",
+      "Keep-Alive" : "timeout=60"
+    }
+  },
+  "uuid" : "5f3e207c-ddc6-375e-af16-b66ca31cd7c4"
+}

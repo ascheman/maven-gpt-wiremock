@@ -1,0 +1,17 @@
+{
+  "id" : "baa0a5ed-e298-3a87-bfad-63faa42abae5",
+  "request" : {
+    "url" : "/ask?message=On+which+topics+did+Herv%C3%A9+work",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-ask-1I7lu.json",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "Date" : "Fri, 28 Jun 2024 06:38:44 GMT",
+      "Keep-Alive" : "timeout=60"
+    }
+  },
+  "uuid" : "baa0a5ed-e298-3a87-bfad-63faa42abae5"
+}

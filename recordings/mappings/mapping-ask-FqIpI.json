@@ -1,0 +1,17 @@
+{
+  "id" : "ddb2d231-e2ca-3755-b15f-870a6d72a60c",
+  "request" : {
+    "url" : "/ask?message=What+needs+to+be+done+to+migrate+away+from+Sonatype+Aether",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-ask-FqIpI.json",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "Date" : "Fri, 28 Jun 2024 06:38:53 GMT",
+      "Keep-Alive" : "timeout=60"
+    }
+  },
+  "uuid" : "ddb2d231-e2ca-3755-b15f-870a6d72a60c"
+}

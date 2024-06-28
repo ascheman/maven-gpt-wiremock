@@ -1,0 +1,39 @@
+= Curl Commands
+
+This document contains the curl commands derived from the WireMock recordings.
+
+[source,bash]
+----
+curl -X GET http://localhost:8088/ask?message=List+top+10+terms+in+the+context+of+Maven
+----
+
+[source,bash]
+----
+curl -X GET http://localhost:8088/ask?message=List+top+10+acronyms+in+the+context+of+Maven+%28and+their+meaning%29
+----
+
+[source,bash]
+----
+curl -X GET http://localhost:8088/ask?message=Which+persons+have+worked+on+build+pom+documentation
+----
+
+[source,bash]
+----
+curl -X GET http://localhost:8088/ask?message=What+is+the+difference+between+build+and+consumer+POM
+----
+
+[source,bash]
+----
+curl -X GET http://localhost:8088/ask?message=What+needs+to+be+done+to+migrate+away+from+Sonatype+Aether
+----
+
+[source,bash]
+----
+curl -X GET http://localhost:8088/ask?message=On+which+topics+did+Herv%C3%A9+work
+----
+
+[source,bash]
+----
+curl -X GET http://localhost:8088/start
+----
+
