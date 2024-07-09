@@ -8,6 +8,7 @@ public class RunWiremock {
 
     public static void main(String... args) {
         WireMockServerRunner.main("--port", "8088",
+                "--enable-stub-cors",
                 "--verbose",
                 "--root-dir",
                 "./recordings"
